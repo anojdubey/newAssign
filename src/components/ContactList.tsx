@@ -13,7 +13,7 @@ const ContactList: React.FC = () => {
   const [showModalE, setShowModalE] = useState(false);
 
   return (
-    <div className="w-full p-4">
+    <div className="w-full p-4" >
       <button
         className="w-1/6 m-auto py-2 text-white bg-blue-500 rounded-md flex items-center justify-center mb-4 md:text-base transition-colors duration-300 hover:bg-blue-600 sm:text-xs"
         onClick={() => {
